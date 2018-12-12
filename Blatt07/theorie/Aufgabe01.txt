@@ -1,0 +1,20 @@
+# Aufgabe 1: Carry-Select Addierer (2 Punkte)
+Erklären Sie das Prinzip und die Funktionsweise eines Carry-Select-Addierers.
+Nennen Sie jeweils einen Vor- und Nachteil im Vergleich zu einem Carry-Ripple-Addierer.
+
+<<<<<<< HEAD
+Ein Carry-Select Addierer setzt sich aus zwei Carry-Ripple Addierern zusammen ,welche sich wiederum
+aus n Volladdierern zusammensetzen(n bezeichnet die Anzahl an bits von A und B).
+Dem ersten CRA wird als CarryIn die 0 zugewiesen während dem zweiten CRA als CarryIn die 1 zugewiesen wird ,anschließend werden von den CRA die outputs berechnet.
+Das Prinzip des CSA besteht nun darin ,dass abhängig von dem eigentlichen CarryIn Wert zwischen den 
+berechneten outputs für CarryIn = 1 und CarryIn = 0 ausgewählt wird.
+
+Ein Vorteil des CSA ist das er schneller als ein CRA ist da keine Verzögerung existiert weil 
+die CarryIn und CarryOut Werte ständig neu berechnet werden müssen.
+Ein Nachteil des CSA ist die höhere komplexität bezüglich des Designs und damit verbunden ein höherer
+programmieraufwand.
+
+=======
+>>>>>>> eb70c4bc105bacb5b47e4c0ac7ce6d5bdc3e8f32
+Hinweis:
+Beschränken Sie sich bei der Erklärung auf einen einfachen, nicht kaskadierten Carry-Select-Addierer.
